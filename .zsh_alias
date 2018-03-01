@@ -1,0 +1,51 @@
+## Git
+
+alias gi="git init"
+alias gs="git status"
+alias gst="git stash"
+alias gsa="git stash apply"
+alias ga="git add ."
+alias gc="git commit -m"
+alias gce="git commit -am '______'"
+alias gcep="git commit -am '______' && git push origin master"
+alias gcrp="git commit -am 'update readme.md' && git push origin master"
+alias gch="git checkout"
+alias gp="git push origin"
+alias gpom="git push origin master"
+alias gpuom="git pull origin master"
+alias got="git"
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+# folder access
+alias ~="cd ~"
+alias subl_config='cd /home/polo/.config/sublime-text-3/Packages'
+alias desktop="cd ~/Desktop"
+alias download="cd ~/Downloads/"
+alias document="cd ~/Documents/"
+alias music="cd ~/Music/"
+alias uy23="cd /home/polo/Music/uy23"
+alias uy27="cd /home/polo/Music/uy27"
+alias uy28="cd /home/polo/Music/uy28"
+alias sandbox="cd /opt/lampp/htdocs/sandbox"
+
+#laravel
+alias art="php artisan"
+alias tinker="php artisan tinker"
+alias migrate="php artisan migrate"
+alias mir="php artisan migrate:fresh"
+alias mirs="php artisan migrate:fresh --seed"
+alias srv="php artisan serve"
+alias mksql="touch database/database.sqlite"
+alias rmsql="rm -rf database/database.sqlite"
+alias seed="php artisan db:seed"
+alias xampp="sudo /opt/lampp/manager-linux-x64.run"
+
+
+
+
+# bash
+alias cls="clear"
+alias apy="python3 -m http.server"
+alias aph="php -S localhost:8000"
+alias js="bundle exec jekyll serve"
+alias removeswap="find . -type f -name \"*.sw[klmnop]\" -delete"
